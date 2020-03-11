@@ -9,6 +9,9 @@ https://web.cs.ucdavis.edu/~koehl/Teaching/ECS129/projects.html
 # PLEASE DO NOT GRADE UNTIL AFTER MARCH 13 DUE DATE
 # PLEASE DO NOT GRADE UNTIL AFTER MARCH 13 DUE DATE
 
+# Report
+[Report Directory](/report/)
+
 # PROJECT PROGRESS
 - [x] Open .PDB file
 - [X] Parse .CRD file atom properties into an efficient data structure
