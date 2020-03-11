@@ -1,4 +1,4 @@
-# Protein-Structure-Energy
+# Validating Protein Structure Models
 Project for UC Davis ECS 129 2020
 
 https://web.cs.ucdavis.edu/~koehl/Teaching/ECS129/projects.html
