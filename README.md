@@ -12,76 +12,21 @@ https://web.cs.ucdavis.edu/~koehl/Teaching/ECS129/projects.html
 # Final Report
 [Report Directory /report/](/report/)
 
-# PROJECT PROGRESS
-- [x] Open .PDB file
-- [X] Parse .CRD file atom properties into an efficient data structure
-- [X] Implement mathematical computation for total protein internal energy
-- [X] Perform protein structure comparison
-- [ ] `50%` Report - Introduction
-  - [ ] `50%` Presentation of the problem
-  - [ ] `50%` Previous work on the topic
-- [ ] `90%` Report - Methods
-  - [ ] `90%` Description of your algorithm
-  - [ ] `90%` Brief analysis
-- [ ] `90%` Report - Results
-  - [ ] `90%` Presentation
-  - [ ] `90%` Analysis
-- [ ] `50%` Report - Discussion
-- [ ] `60%` Report - Bibliography
-
 # Folder Organization
-* `/CRD_File_py_src/` protein internal energy calculation written in python using the professor provided CRD files containing pre-fetched atom variables
-* `/PDB_File_py_src/` protein internal energy calculation written in python using self-provided atom variables
-* `/cpp_src/` protein internal energy calculation written in C++
+The calculation as outlined by Dr. Koehl is implemented in both python and C++ for run time comparison purposes. The python source should be used for grading since it was used for comparison calculations and results.
+* `/src_py/` protein internal energy calculation source written in python using the professor provided CRD files containing pre-processed atom data
+* `/src_cpp/` protein internal energy calculation source written in C++
 
-# Run time tests
-
-Run with python:
+# `/src_py/` Python Source Run
+Use python 3
+```shell
+cd src_py
+python mainEnergyScore.py
+```
 
 ![python](https://github.com/UC-Davis-ECS-129-Project/Protein-Internal-Energy/blob/master/share/console-run-py_D20200227.png)
 
-Run with C++:
-
-![cpp](https://raw.githubusercontent.com/UC-Davis-ECS-129-Project/Protein-Internal-Energy/master/share/console-run-cpp_D20200227.png)
-
-# `/CRD_File_py_src/` Environment Set Up
-Use python 3
-```shell
-cd CRD_File_py_src
-python main.py
-```
-
-# `/PDB_File_py_src/` Environment Set Up
-## Windows
-download https://bootstrap.pypa.io/get-pip.py
-```shell
-python get-pip.py
-```
-
-## MSYS2
-```shell
-pacman -S python3-pip
-```
-
-## MacOS
-```shell
-sudo easy_install pip
-sudo pip install --upgrade pip
-```
-
-## Get Libraries
-```shell
-pip install biopython
-```
-
-## Run Program
-Use python 3
-```shell
-cd PDB_File_py_src
-python main.py
-```
-
-# `/cpp_src/` Environment Set Up
+# `/src_cpp/` C++ Source Run
 Use cmake
 
 Xcode
@@ -95,3 +40,10 @@ cmake -G"MSYS Makefiles" -B build
 cd build
 make
 ```
+
+## Run
+```shell
+./protein-internal-energy.exe
+```
+
+![cpp](https://raw.githubusercontent.com/UC-Davis-ECS-129-Project/Protein-Internal-Energy/master/share/console-run-cpp_D20200227.png)
