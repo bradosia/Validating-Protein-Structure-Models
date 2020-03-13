@@ -25,7 +25,7 @@ See the report for input file format. Default input files of the protein structu
 cd src_py
 python mainEnergyScore.py
 ```
-![python](https://github.com/UC-Davis-ECS-129-Project/Protein-Internal-Energy/blob/master/share/console-run-py_D20200312.png)
+![python](https://github.com/bradosia/Validating-Protein-Structure-Models/blob/master/share/console-run-py_D20200312.png)
 
 Specify the input files using
 ```shell
@@ -55,4 +55,4 @@ make
 ./protein-internal-energy.exe
 ```
 
-![cpp](https://raw.githubusercontent.com/UC-Davis-ECS-129-Project/Protein-Internal-Energy/master/share/console-run-cpp_D20200227.png)
+![cpp](https://github.com/bradosia/Validating-Protein-Structure-Models/blob/master/share/console-run-cpp_D20200227.png)
