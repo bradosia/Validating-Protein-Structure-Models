@@ -1,7 +1,7 @@
 """
 Author: Branden Lee
 Date: 2020-01-24 to 2020-03-06
-Github: https://github.com/GoodProtein/ProScore
+Github: https://github.com/bradosia/Validating-Protein-Structure-Models
 
 PLAGIARISM NOTICE
 This project was created for ECS 129 course at UC Davis
