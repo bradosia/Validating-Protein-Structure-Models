@@ -9,8 +9,12 @@ python mainEnergyScore.py
 
 Specify the input files using
 ```shell
-cd src_py
 python mainEnergyScore.py myProteinFile1.crd myProteinFile2.crd
+```
+
+Output data dump as .csv format. Used for debugging.
+```shell
+python mainEnergyScore.py myProteinFile1.crd myProteinFile2.crd -o -d outputDirectory
 ```
 
 # mainAtomScoreCompare.py
