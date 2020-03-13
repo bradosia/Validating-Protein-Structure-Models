@@ -25,14 +25,13 @@ See the report for input file format. Default input files of the protein structu
 cd src_py
 python mainEnergyScore.py
 ```
+![python](https://github.com/UC-Davis-ECS-129-Project/Protein-Internal-Energy/blob/master/share/console-run-py_D20200227.png)
 
 Specify the input files using
 ```shell
 cd src_py
 python mainEnergyScore.py myProteinFile1.crd myProteinFile2.crd
 ```
-
-![python](https://github.com/UC-Davis-ECS-129-Project/Protein-Internal-Energy/blob/master/share/console-run-py_D20200227.png)
 
 # `/src_cpp/` C++ Source Run
 [C++ Source Directory /src_py/](/src_cpp/)
