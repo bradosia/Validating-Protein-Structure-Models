@@ -1,6 +1,6 @@
 # Office Session 2020-03-13 at 10:00 AM
 
-## How does the current flow char look?
+## How does the method section current flow chart look?
 * Add numbers near the arrows and make annotations with explanations
 
 ## What is in introduction, analysis, and discussion?
