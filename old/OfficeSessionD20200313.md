@@ -11,7 +11,7 @@
 ## Difference betwen introduction and method?
 * Introduction: Why we use internal energy for comparison?
 * Method: Why do we use this method to calculate internal energy?
- * Explain the equation and its meaning in method section.
+  * Explain the equation and its meaning in method section.
 
 ## Where to put the force field parameter explanations?
 * Dr. Koehl says that this may not fit within the page limit.
