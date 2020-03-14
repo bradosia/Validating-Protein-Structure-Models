@@ -8,6 +8,9 @@ https://web.cs.ucdavis.edu/~koehl/Teaching/ECS129/projects.html
 # Final Report
 [Report Directory /report/](/report/)
 
+# Abstract
+This project implements a simplified method for scoring the quality of a protein structure using an internal energy calculation that includes Van der Waals, electrostatic, and solvation energy. Two protein structures with accompanying pre-processed atom data files are compared using our method. Structure #2 is found to have a higher structure quality because of its lower internal energy score.
+
 # Folder Organization
 The calculation as outlined by Dr. Koehl is implemented in both python and C++ for run time comparison purposes. The python source should be used for grading since it was used for comparison calculations and results.
 * `/src_py/` protein internal energy calculation source written in python using the professor provided CRD files containing pre-processed atom data
