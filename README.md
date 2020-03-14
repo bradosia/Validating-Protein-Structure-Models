@@ -16,10 +16,12 @@ The calculation as outlined by Dr. Koehl is implemented in both python and C++ f
 * `/src_py/` protein internal energy calculation source written in python using the professor provided CRD files containing pre-processed atom data
 * `/src_cpp/` protein internal energy calculation source written in C++
 
-# `/src_py/` Python 3 Source Run
+# `/src_py/` Python 3 Source
 [Python Source Directory /src_py/](/src_py/)
 
-See the report for input file format. Default input files of the protein structures to compare are `../data/model1.crd` and `../data/model2.crd`
+See the report for input file format. Default input files of the protein structures to compare are `../data/model1.crd` and `../data/model2.crd`. Default output directory is `../results/`.
+
+## Run
 ```shell
 cd src_py
 python mainEnergyScore.py
