@@ -28,27 +28,3 @@ Specify the input files using
 cd src_py
 python mainEnergyScore.py myProteinFile1.crd myProteinFile2.crd
 ```
-
-# `/src_cpp/` C++ Source Run
-[C++ Source Directory /src_py/](/src_cpp/)
-
-Use cmake
-
-Xcode
-```shell
-cmake -G"Xcode" -B build
-```
-
-MSYS
-```shell
-cmake -G"MSYS Makefiles" -B build
-cd build
-make
-```
-
-## Run
-```shell
-./protein-internal-energy.exe
-```
-
-![cpp](https://github.com/bradosia/Validating-Protein-Structure-Models/blob/master/share/console-run-cpp_D20200227.png)
