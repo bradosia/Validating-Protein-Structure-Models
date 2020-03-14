@@ -22,6 +22,8 @@ python mainEnergyScore.py myProteinFile1.crd myProteinFile2.crd -o -d outputDire
 ## Local Structure Comparison (By Atoms)
 
 Computes the score difference between two protein structures locally by creating user-defined substrings of atoms of M length iterating atoms 0 to N. 
+
+[Output Directory ../results/](../results/)
 ```shell
 python mainEnergyScore.py 50
 ```
@@ -29,6 +31,8 @@ python mainEnergyScore.py 50
 ## Local Structure Comparison (By Residues)
 
 Computes the score difference between two protein structures locally by creating user-defined substrings of residues of M length iterating atoms 0 to N. 
+
+[Output Directory ../results/](../results/)
 ```shell
 python mainResidueScoreCompare.py 10
 ```
