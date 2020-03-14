@@ -25,7 +25,12 @@ Computes the score difference between two protein structures locally by creating
 
 [Output Directory ../results/](../results/)
 ```shell
-python mainEnergyScore.py 50
+python mainAtomScoreCompare.py 50
+```
+
+Specify input files, range of 20, verbose, and outputDirectory
+```shell
+python mainAtomScoreCompare.py ../data/model1.crd ../data/model2.crd 20 -v -d outputDirectory
 ```
 
 ## Local Structure Comparison (By Residues)
@@ -35,4 +40,15 @@ Computes the score difference between two protein structures locally by creating
 [Output Directory ../results/](../results/)
 ```shell
 python mainResidueScoreCompare.py 10
+```
+
+Specify input files, range of 5, verbose, and outputDirectory
+```shell
+python mainResidueScoreCompare.py ../data/model1.crd ../data/model2.crd 5 -v -d outputDirectory
+```
+
+## Compute time complexity
+
+```shell
+python mainTimeComplexity.py 100
 ```

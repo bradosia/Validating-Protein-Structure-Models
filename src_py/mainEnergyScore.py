@@ -9,8 +9,12 @@ and is publically hosted in a github repository. Other students
 may find this repository and attempt to copy all or portions of this project.
 """
 
+"""
+@brief Compares the global scores of two proteins.
+"""
+
 import argparse, sys # getopt, exit
-import os
+import os # makedirs
 import math
 import time
 import EnergyScoreMethods
