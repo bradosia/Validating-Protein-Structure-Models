@@ -1,6 +1,8 @@
-# Python 3 Source Run
+# Python 3 Source
 
-See the report for input file format. Default input files of the protein structures to compare are `../data/model1.crd` and `../data/model2.crd`
+See the report for input file format. Default input files of the protein structures to compare are `../data/model1.crd` and `../data/model2.crd`. Default output directory is `../results/`.
+
+## Global Structure Comparison
 ```shell
 cd src_py
 python mainEnergyScore.py
@@ -17,6 +19,16 @@ Output data dump as .csv format. Used for debugging.
 python mainEnergyScore.py myProteinFile1.crd myProteinFile2.crd -o -d outputDirectory
 ```
 
-# mainAtomScoreCompare.py
+## Local Structure Comparison (By Atoms)
 
-Computes the score difference between two proteins locally by creating arbitrarily defined substrings of atoms of M length iterating atoms 0 to N.
+Computes the score difference between two protein structures locally by creating user-defined substrings of atoms of M length iterating atoms 0 to N. 
+```shell
+python mainEnergyScore.py 50
+```
+
+## Local Structure Comparison (By Residues)
+
+Computes the score difference between two protein structures locally by creating user-defined substrings of residues of M length iterating atoms 0 to N. 
+```shell
+python mainResidueScoreCompare.py 10
+```
