@@ -6,7 +6,8 @@ By: Branden Lee and Kimberly Kwan
 https://web.cs.ucdavis.edu/~koehl/Teaching/ECS129/projects.html
 
 # Final Report
-[Report Directory /report/](/report/)
+
+[Final Report - paper_D20200313.pdf](/report/paper_D20200313.pdf)
 
 # Abstract
 This project implements a simplified method for scoring the quality of a protein structure using an internal energy calculation that includes Van der Waals, electrostatic, and solvation energy. Two protein structures with accompanying pre-processed atom data files are compared using our method. Structure #2 is found to have a higher structure quality because of its lower internal energy score.
